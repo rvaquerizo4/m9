@@ -1,0 +1,33 @@
+
+header{
+    border: 2px solid green;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
+
+#myh1,#myp {
+    border: 2px solid gray;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+main{
+    border: 2px solid blue;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav{
+    border: 2px solid greenyellow;
+    display: flexbox;
+    align-items: flex-start;
+    flex-direction: initial;
+}
+
+article{
+    border: 2px solid red;
+    display: flexbox;
+    align-items: flex-end;
+
+}
