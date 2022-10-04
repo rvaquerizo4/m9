@@ -6,28 +6,95 @@ header{
     text-align: center;
 }
 
-#myh1,#myp {
+p, h3,img{
+    border: 1px solid green;
+    margin: 1.5%;
+}
+
+#myh2,#myp {
     border: 2px solid gray;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 main{
+    margin: 1px;
     border: 2px solid blue;
     margin-left: 10%;
     margin-right: 10%;
+    display: flex;
 }
 
-nav{
+#navegar{
+    margin: 1px;
     border: 2px solid greenyellow;
-    display: flexbox;
-    align-items: flex-start;
-    flex-direction: initial;
+    min-width: 11%;
 }
 
-article{
+button{
+    background: none;
+    border: 1px solid green;
+    color: inherit;
+    margin-top: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5%;
+    width: 90%;
+    text-align: left;
+}
+
+#container{
+    margin: 1px;
     border: 2px solid red;
-    display: flexbox;
-    align-items: flex-end;
-
 }
+
+
+.art1{
+    border: 1px solid green;
+    margin: 2%;
+}
+
+h2.art1{
+    color: #009999;
+}
+
+.acon{
+    border: 2px solid blue;
+    margin: 1px;
+    margin-bottom: 3%;
+}
+
+.ligth-blue{
+    border: 2px solid lightblue;
+    margin: 2%; 
+    display: flex;
+    padding: 2px;
+}
+
+.pink{
+    border: 2px solid pink;
+    margin: 1%;
+    text-align: center;
+    padding: 2%;
+}
+
+#img{
+    border: 0;
+    width: 100%;
+    margin: 0%;
+}
+
+footer{
+    background-color: #babdb6;
+    text-align: end;
+    padding: 0.75%;
+}
+
+span{
+    font-weight: bold;
+}
+
+#pfoot {
+    border: 1px solid greenyellow;
+ }
+
