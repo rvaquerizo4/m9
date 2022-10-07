@@ -1,23 +1,27 @@
 
 header{
+    /*estilo header, display flexbox para que se vean en medio*/
     border: 2px solid green;
     display: flexbox;
     align-items: center;
     text-align: center;
 }
-
+/*aqui empieza el main*/
 p, h3,img{
+    /*estilo de todos los p, h3 i img*/
     border: 1px solid green;
     margin: 1.5%;
 }
 
 #myh2,#myp {
+    /*estilo de los id myh2 y myp donde les asigno un border y margin right y left*/
     border: 2px solid gray;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 main{
+    /*estilo del main, display flex para que se vea de izquierda a derecha por defecto*/
     margin: 1px;
     border: 2px solid blue;
     margin-left: 10%;
@@ -26,12 +30,14 @@ main{
 }
 
 #navegar{
+    /*estilo de navegar, le pongo min-width para que no se vea tan pequeño cuando cambia la resolucion*/
     margin: 1px;
     border: 2px solid greenyellow;
     min-width: 11%;
 }
 
 button{
+    /*estilo de los botones, transition para cuando el hover pase tarde 1 segundo*/
     background: none;
     border: 1px solid green;
     color: inherit;
@@ -41,15 +47,24 @@ button{
     padding: 5%;
     width: 90%;
     text-align: left;
+    transition: all 1s ease;
+}
+
+button:hover {
+    /*estilo de los botonesal pasar el raton por encima, se cambia el color de fondo*/
+    background: #318aac;
+    color: #fff !important;
 }
 
 #container{
+    /*estilo de el section que guarda todo*/
     margin: 1px;
     border: 2px solid red;
 }
 
 
 .art1{
+    /*estilo de la clase art1 asignado a h2 y p de los articulos*/
     border: 1px solid green;
     margin: 2%;
 }
@@ -59,12 +74,14 @@ h2.art1{
 }
 
 .acon{
+    /*estilo de la clase acon1, que es el section que guarda los childs */
     border: 2px solid blue;
     margin: 1px;
     margin-bottom: 3%;
 }
 
 .ligth-blue{
+    /*estilo de la clase ligth-blue, que es es section que guarda los 3 subarticulos*/
     border: 2px solid lightblue;
     margin: 2%; 
     display: flex;
@@ -72,6 +89,7 @@ h2.art1{
 }
 
 .pink{
+    /*estilo para el borde de los subarticulos*/
     border: 2px solid pink;
     margin: 1%;
     text-align: center;
@@ -79,17 +97,22 @@ h2.art1{
 }
 
 #img{
+    /*estilo para la ultima imagen, el border y margin 0 para que no herede los atributos de antes*/
     border: 0;
     width: 100%;
     margin: 0%;
 }
 
+.margen{
+    margin-top: 10px;
+}
+/*aqui empieza el footer*/
 footer{
     background-color: #babdb6;
     text-align: end;
     padding: 0.75%;
 }
-
+/*color negrita al span*/
 span{
     font-weight: bold;
 }
