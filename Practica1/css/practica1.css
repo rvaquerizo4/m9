@@ -101,10 +101,11 @@ h2.art1{
     border: 0;
     width: 100%;
     margin: 0%;
+    margin-bottom: 4px;
 }
 
 .margen{
-    margin-top: 10px;
+    margin-top: 13px;
 }
 /*aqui empieza el footer*/
 footer{
