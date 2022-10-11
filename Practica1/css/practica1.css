@@ -74,7 +74,7 @@ h2.art1{
 }
 
 .acon{
-    /*estilo de la clase acon1, que es el section que guarda los childs */
+    /*estilo de la clase acon, que es el section que guarda los childs */
     border: 2px solid blue;
     margin: 1px;
     margin-bottom: 3%;
